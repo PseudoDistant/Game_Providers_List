@@ -24,6 +24,13 @@ Here's a list of external GameProviders that I've compiled on my own:
 *WildermythGameProvider is part of a project called "WilderForge", led and maintained by Gamebuster19901.* \
 [WildermythGameProvider on GitHub](https://github.com/WilderForge/WildermythGameProvider)
 
+## Mindustry
+
+![mindustry-fabric-loader by Qendolin](https://cdn.discordapp.com/attachments/947252996293656607/949670296179318905/unknown.png)
+
+*mindustry-fabric-loader is a GameProvider for Mindustry, created and maintained by Qendolin.* \
+[mindustry-fabric-loader on GitHub](https://github.com/Qendolin/mindustry-fabric-loader)
+
 ## Minecraft4K CrunchyCat mod
 ![Minecraft4KGameProvider by PseudoDistant](https://cdn.discordapp.com/attachments/523251999899385875/938653114989420554/unknown.png)
 
@@ -38,8 +45,3 @@ Here's a list of external GameProviders that I've compiled on my own:
 
 # What is a GameProvider?
 Fabric Loader isn't just a Minecraft modding toolchain, Fabric Loader can actually run pretty much any Java-based game if you tell it how to. A GameProvider is what we use to do just that. Fabric Loader has a MinecraftGameProvider built-in, but that doesn't mean that's all it can do. Just by making a new GameProvider for another Java-based game, you can enable the creation and use of Fabric mods for that game, targetting that game. I really hope to see this facet of Fabric Loader's potential be explored more, and I will do what I can to encourage more GameProvider development.
-
-# What about Mindustry?
-[Fabric Loader Mindustry](https://github.com/marcus8448/fabric-loader-mindustry) is a project by marcus8448 to allow the use of Fabric Loader on Mindustry. \
-Sadly, it seems that they've abandoned the project some time before Fabric Loader supported the creation of non-Minecraft GameProvider packages without forking the loader... \
-As such, I've decided to not count it here. However, should someone else make a MindustryGameProvider package, either using their work or completely independently, I will add it to the list properly.
